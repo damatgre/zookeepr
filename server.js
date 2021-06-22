@@ -101,8 +101,22 @@ app.post('/api/animals', (req, res) => {
     }
 });
 
+//establish path to html
 app.get('/', (req, res) => {
     //double underscore
+    res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
+//endpoint is animals
+app.get('/animals', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/animals.html'));
+});
+
+app.get('/zookeepers', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/zookeepers.html'));
+});
+
+app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
 

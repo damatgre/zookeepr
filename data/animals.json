@@ -126,6 +126,26 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Dog",
+      "species": "canine",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "Dog",
+      "species": "canine",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "anxious"
+      ],
+      "id": "14"
     }
   ]
 }
